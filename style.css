@@ -1,0 +1,73 @@
+h1{
+    font-size: 50px;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+    align-items: center;
+}
+p{
+    text-align: justify;
+}
+.name-highlight{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin: 10px 5% 10px 5%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.container{
+    max-height: 650px;
+    overflow: hidden;
+}
+.contact-btn{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border: 0px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.contact-btn:hover{
+    background-image: linear-gradient(45deg, tomato, lightSalmon);
+}
+.experience h1{
+    text-align: left;
+    padding-left: 5%;
+}
+.exp-box{
+    border: 1px solid gray;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 250px;
+    margin-bottom: 40px;
+    background-color: white;
+}
+#full-stack{
+    width: 36%;
+    border-left: 7px solid;
+    padding: 20px;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#web-dev{
+    width: 36%;
+    border-left: 7px solid;
+    padding: 20px;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+.footer{
+    text-align: center;
+}
+
+  
